@@ -1,3 +1,6 @@
+"""
+Hangman is a game which the player must guest the word
+"""
 def hangman(word):
     wrong_guesses = 0
     stages = ["", "________      ", "|      |      ", "|      0      ", "|     /|\     ", "|     / \     ", "|"]
